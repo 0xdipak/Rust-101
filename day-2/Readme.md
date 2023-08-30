@@ -1,4 +1,5 @@
 ===================================== DAY-2 ====================================
+
 What is a variable ?
 - Assign data to a temporary memory location 
     - Allow programmer to easily work with memory

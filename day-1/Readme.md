@@ -20,7 +20,7 @@ Technical Rust Goodies :
 
 
 
-=======================================================  DAY-1 ==========================================================
+====================================  DAY-1 ==================================
 Data Types :
 - Memory only stores binary data
     - Anthing can be represented in binary
