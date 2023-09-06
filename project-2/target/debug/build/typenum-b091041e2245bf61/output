@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=E:\Projects\Blockchain\RUST\project-2\target\debug\build\typenum-b091041e2245bf61\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=E:\Projects\Blockchain\RUST\project-2\target\debug\build\typenum-b091041e2245bf61\out\op.rs

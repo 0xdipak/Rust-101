@@ -1,0 +1,81 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-FoE:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/blocksort.o" "-c" "bzip2-1.0.8/blocksort.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-FoE:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/huffman.o" "-c" "bzip2-1.0.8/huffman.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-FoE:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/crctable.o" "-c" "bzip2-1.0.8/crctable.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-FoE:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/randtable.o" "-c" "bzip2-1.0.8/randtable.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-FoE:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/compress.o" "-c" "bzip2-1.0.8/compress.c"
+blocksort.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-FoE:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/decompress.o" "-c" "bzip2-1.0.8/decompress.c"
+huffman.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-FoE:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/bzlib.o" "-c" "bzip2-1.0.8/bzlib.c"
+crctable.c
+compress.c
+randtable.c
+decompress.c
+bzlib.c
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinitionC:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+C:\Users\dipak\.cargo\registry\src\github.com-1ecc6299db9ec823\bzip2-sys-0.1.11+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\lib.exe" "-out:E:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\libbz2.a" "-nologo" "E:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/blocksort.o" "E:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/huffman.o" "E:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/crctable.o" "E:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/randtable.o" "E:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/compress.o" "E:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/decompress.o" "E:\\Projects\\Blockchain\\RUST\\project-2\\target\\debug\\build\\bzip2-sys-1b0822c1fc8c79cc\\out\\lib\\bzip2-1.0.8/bzlib.o"
+exit code: 0
+cargo:rustc-link-search=native=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.36.32532\atlmfc\lib\x64
+cargo:rustc-link-lib=static=bz2
+cargo:rustc-link-search=native=E:\Projects\Blockchain\RUST\project-2\target\debug\build\bzip2-sys-1b0822c1fc8c79cc\out\lib
+cargo:root=E:\Projects\Blockchain\RUST\project-2\target\debug\build\bzip2-sys-1b0822c1fc8c79cc\out
+cargo:include=E:\Projects\Blockchain\RUST\project-2\target\debug\build\bzip2-sys-1b0822c1fc8c79cc\out\include
