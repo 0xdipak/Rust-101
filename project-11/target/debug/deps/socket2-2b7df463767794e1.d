@@ -1,0 +1,11 @@
+E:\Projects\Blockchain\RUST\project-11\target\debug\deps\socket2-2b7df463767794e1.rmeta: C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\lib.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sockaddr.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\socket.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sockref.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sys\windows.rs
+
+E:\Projects\Blockchain\RUST\project-11\target\debug\deps\libsocket2-2b7df463767794e1.rlib: C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\lib.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sockaddr.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\socket.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sockref.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sys\windows.rs
+
+E:\Projects\Blockchain\RUST\project-11\target\debug\deps\socket2-2b7df463767794e1.d: C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\lib.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sockaddr.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\socket.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sockref.rs C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sys\windows.rs
+
+C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\lib.rs:
+C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sockaddr.rs:
+C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\socket.rs:
+C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sockref.rs:
+C:\Users\dipak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.4.9\src\sys\windows.rs:
