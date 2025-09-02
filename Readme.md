@@ -18,5 +18,3 @@ This repo consist all code and resources I am doing and using while learning rus
 5. https://www.youtube.com/watch?v=md-ecvXBGzI&list=LL&index=9&t=706s
 
 6. https://www.youtube.com/@codetothemoon/playlists
-
-7. https://practice.rs/why-exercise.html
